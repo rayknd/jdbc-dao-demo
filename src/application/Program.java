@@ -15,9 +15,9 @@ public class Program {
 		sc.close();*/
 		
 		Department books = new Department(1,"Books");
-		
+	
 		Seller seller = new Seller(1, "Bob", "bob@gmail.com", new Date(), 750.00, books);
-		
+			
 		System.out.println(books);
 		System.out.println(seller);
 
